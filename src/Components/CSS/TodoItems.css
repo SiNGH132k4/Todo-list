@@ -1,0 +1,40 @@
+.todoitems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #ddd;
+    word-wrap: break-word;
+}
+
+.todoitems-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 0.75rem;
+    cursor: pointer;
+}
+
+.todoitems-check {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.todoitems-text {
+    padding-left: 16px;
+    color: #404040;
+    font-size: 22px;
+    flex-grow: 1;
+    word-break: break-word;
+}
+
+.todoitems-cross {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.line-through {
+    text-decoration: line-through solid #ADADAD 3px;
+}
